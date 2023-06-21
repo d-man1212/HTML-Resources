@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Resources">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="@d-man1212">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="testpage.php" method="POST">
+    <!--GET is useful for search etc but insecure for valuable cred like login creds, etc. Use post instead-->
+        <!--Text boxes-->
+        <div>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname" required placeholder="Enter your username">
+        </div>
+        <br>
+        <!--Password boxes-->
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" required placeholder="Enter the password">
+        </div>
+        <br>
+        <!--Radio buttons-->
+        <div>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Other</label>
+            <input type="radio" name="gender">
+        </div>
+        <br>
+        <!--Text boxes-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your mail id">
+        </div>
+        <br>
+        <!--Drop down boxes-->
+        <div>
+            <label for="level">Level:</label>
+            <select id="level" name="level">
+                <option value="b">Beginner</option>
+                <option value="a">Average Knowledge</option>
+                <option value="g">Good Knowledge</option>
+                <option value="e">Expert</option>
+            </select>
+        </div>
+        <br>
+        <!--Check box-->
+        <div>
+            <label for="learn">Eagerness to learn:</label>
+            <input type="checkbox" id="learn" name="learn">
+        </div>
+        <br>
+        <!--Text boxes-->
+        <div>
+            <label for="phno">Phone:</label>
+            <input type="tel" id="phno" name="phno" placeholder="Enter your phone no.">
+        </div>
+        <br>
+        <!--Date selector-->
+        <div>
+            <label for="bday">DOB:</label>
+            <input type="date" id="bday" name="bday" placeholder="Enter your DOB">
+        </div>
+        <br>
+        <!--Number generator-->
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" max="99" value="0">
+        </div>
+        <!--Function Buttons-->
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <br>
+    <a href="Reference1.html" target="_self" title="REFERENCE1">HYPERLINK TO REFERENCE1</a>
+    <br>
+    <a href="Reference2.html" target="_self" title="REFERENCE2">HYPERLINK TO REFERENCE2</a>
+    <br>
+    <a href="Reference3.html" target="_self" title="REFERENCE3">HYPERLINK TO REFERENCE3</a>
+    <br>
+    <a href="Reference4.html" target="_self" title="REFERENCE4">HYPERLINK TO REFERENCE4</a>
+    <br>
+    <a href="Reference5.html" target="_self" title="REFERENCE5">HYPERLINK TO REFERENCE5</a>
+</body>
+</html>

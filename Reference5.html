@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Resources">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="@d-man1212">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="5" Refresh every 5seconds -->
+    <title>Reference5</title>
+    <!-- Sets the title of the HTML document -->
+
+</head>
+<body style="background-color: #424549;">
+    <h1 style="color: white;">Welcome to Reference5!</h1>
+    <hr>
+    <!-- iframe is used to embed content from another source into HTML doc-->
+    <iframe style="background-color: white;" src="Reference1.html" width="800" height="600" frameborder="0"></iframe>
+    <iframe style="background-color: white;" src="https://www.google.com/" width="800" height="600" frameborder="0"></iframe>
+    <hr>
+    <a href="https://www.google.com/">
+        <button style="background-color:cadetblue;color: black;border-radius: 5px;">GOOGLE</button>
+    </a>
+    <br>
+    <button onclick="customfunction()">Click Me!</button>
+    <br>
+    <h1 id="test" style="color: black;"> Switch is OFF! </h1>
+    <script>
+        function customfunction(){
+            var switchstatus = document.getElementById("test");
+            if (switchstatus.innerHTML==" Switch is OFF! "){
+                switchstatus.innerHTML=" Switch is ON! ";
+                switchstatus.style.color="white";
+            }
+            else{
+                switchstatus.innerHTML=" Switch is OFF! ";
+                switchstatus.style.color="black";
+            }
+        }
+    </script>
+    <hr>
+    <a href="Reference1.html" target="_self" title="REFERENCE1">HYPERLINK TO REFERENCE1</a>
+    <br>
+    <a href="Reference2.html" target="_self" title="REFERENCE2">HYPERLINK TO REFERENCE2</a>
+    <br>
+    <a href="Reference3.html" target="_self" title="REFERENCE3">HYPERLINK TO REFERENCE3</a>
+    <br>
+    <a href="Reference4.html" target="_self" title="REFERENCE4">HYPERLINK TO REFERENCE4</a>
+    <br>
+    <a href="Reference6.html" target="_self" title="REFERENCE6">HYPERLINK TO REFERENCE6</a>
+</body>
+</html>
